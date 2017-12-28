@@ -1,0 +1,7 @@
+{
+	"format": {
+		"properties": "propriedades",
+		"json": "JSON",
+		"yaml": "YAML"
+	}
+}
