@@ -3,15 +3,15 @@
       {
          "name":"resource1",
          "data":{
-            "data1":"value1",
-            "data2":"value2"
+            "field1":"value1",
+            "field2":"value2"
          }
       },
       {
          "name":"resource2",
          "data":{
-            "data1":"otherValue1",
-            "data2":"otherValue2"
+            "field1":"otherValue1",
+            "field2":"otherValue2"
          }
       }
    ]
