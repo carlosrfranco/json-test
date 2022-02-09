@@ -1,7 +1,18 @@
 {
-	"format": {
-		"value1": "Value 1",
-		"value2": "Value 2",
-		"value3": "Value 3"
-	}
+   "resources":[
+      {
+         "name":"resource1",
+         "data":{
+            "data1":"value1",
+            "data2":"value2"
+         }
+      },
+      {
+         "name":"resource2",
+         "data":{
+            "data1":"otherValue1",
+            "data2":"otherValue2"
+         }
+      }
+   ]
 }
