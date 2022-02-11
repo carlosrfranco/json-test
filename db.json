@@ -2,6 +2,7 @@
    "resources":[
       {
          "name":"resource1",
+         "type": "table",
          "data":{
             "field1":"value1",
             "field2":"value2"
@@ -9,6 +10,7 @@
       },
       {
          "name":"resource2",
+         "type":"other",
          "data":{
             "field1":"otherValue1",
             "field2":"otherValue2"
