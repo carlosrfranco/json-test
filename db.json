@@ -8,12 +8,12 @@
             "columns":[
                 {
                   "Header": "Field1",
-                  "accessor": "field1",
+                  "accessor": "field1"
                 },
                 {
                   "Header": "Field2",
-                  "accessor": "field2",
-                },
+                  "accessor": "field2"
+                }
             ]
          }
       },
