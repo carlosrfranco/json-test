@@ -1,8 +1,31 @@
 {
+   "dashboard":{
+      "table":{
+         "datasource":{
+            "url": "http://something.com/datasource/table/info"
+         },
+         "config":{
+            "columns":[
+                {
+                  "Header": "Field1",
+                  "accessor": "field1",
+                },
+                {
+                  "Header": "Field2",
+                  "accessor": "field2",
+                },
+            ]
+         }
+      },
+      "json":{
+          "datasource":{
+            "url": "http://something.com/datasource/json/info"
+         }
+      }
+   },
    "resources":[
       {
          "name":"resource1",
-         "type": "table",
          "data":{
             "field1":"value1",
             "field2":"value2"
@@ -10,7 +33,6 @@
       },
       {
          "name":"resource2",
-         "type":"other",
          "data":{
             "field1":"otherValue1",
             "field2":"otherValue2"
